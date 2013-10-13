@@ -19,9 +19,6 @@
 # product configuration (apps).
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/small_base.mk)
-
 # This is where we'd set a backup provider if we had one
 $(call inherit-product, device/huawei/u8860/device.mk)
 
