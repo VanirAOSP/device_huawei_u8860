@@ -5,8 +5,8 @@ LOCAL_PATH := $(call my-dir)
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DTARGET7x30 -DTARGET_MSM7x30 -DREFRESH_RATE=60
 
 # Kernel
-# TARGET_KERNEL_SOURCE := kernel/huawei/u8860
-# TARGET_KERNEL_CONFIG := cyanogenmod_u8860_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/u8860
+TARGET_KERNEL_CONFIG := cm_u8860_defconfig
 TARGET_PREBUILT_KERNEL := device/huawei/u8860/prebuilt/kernel
 TARGET_SPECIFIC_HEADER_PATH += device/huawei/u8860/include
 
